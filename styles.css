@@ -1,0 +1,96 @@
+
+body {
+    background-color: beige;
+    height: auto;
+    margin: 0;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    position: relative;
+    padding-bottom: 40px;
+    
+}
+.content {
+    /*justify-content: center;*/
+    /*position: absolute;*/
+    width: 100%;
+}
+.firstdiv {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    height: 50px;
+    width: 100%;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+.firstdiv p {
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.secdiv {
+    background-color: beige;
+    width: 100%;
+    height: 100%;
+}
+
+.photofee:nth-child(1) {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+    /*border: 1px black solid;*/
+}
+
+.photoicon1 {
+    display: flex;
+    
+}
+
+.photoicon1 p{
+    font-size: 15px;
+    margin: 0 5px 0 0 ;
+}
+#icon1{
+    margin-left: auto;
+}
+
+#icon3{
+    margin-right: 0;
+}
+.photocounter {
+    display: flex;
+    font-family: sans-serif;
+    color: black;
+    font-size: 14px;
+    
+} 
+#firstphototxt {
+    margin-right: auto;
+}
+#secondphototxt {
+    opacity: 0.5;
+}
+.feeimage img {
+    width: 100%;
+    height: 380px;
+    background-size: cover;
+}
+.footergrid{
+    color: black;
+    font-size: 10px;
+    font-family: sans-serif;
+
+}
+.lasticon {
+    text-align: end;
+}
+
+.lasticon i {
+    font-size: 30px;
+}
